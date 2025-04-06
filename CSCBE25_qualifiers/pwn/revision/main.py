@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from pwn import *
 
 # Connect to the server
