@@ -1,0 +1,57 @@
+I put the flag into the Ruby variable FLAG! You can retrieve it if you want, just spell out a program to do so.
+
+Choose a first character for your program: p
+
+
+Your programs so far:
+  p
+
+Generated output:
+  (nothing)
+
+
+Do you want to add (a) or delete (d) a character in the last line? a
+  Choose an index to add a character (0 - 1): 1
+  Choose a character to add:  
+
+
+Your programs so far:
+  p
+  p 
+
+Generated output:
+  (nothing)
+
+
+Do you want to add (a) or delete (d) a character in the last line? a
+  Choose an index to add a character (0 - 2): 2
+  Choose a character to add: #
+You don't want to win this way, right?
+Do you want to add (a) or delete (d) a character in the last line? a
+  Choose an index to add a character (0 - 3): 3
+  Choose a character to add: F
+You don't want to win this way, right?
+Do you want to add (a) or delete (d) a character in the last line? a
+  Choose an index to add a character (0 - 4): 4
+  Choose a character to add: L
+You don't want to win this way, right?
+Do you want to add (a) or delete (d) a character in the last line? a
+  Choose an index to add a character (0 - 5): 5
+  Choose a character to add: A
+You don't want to win this way, right?
+Do you want to add (a) or delete (d) a character in the last line? a
+  Choose an index to add a character (0 - 6): 6
+  Choose a character to add: G
+You don't want to win this way, right?
+Do you want to add (a) or delete (d) a character in the last line? d
+  Choose an index to delete a character (0 - 6): 
+2
+
+
+Your programs so far:
+  p
+  p 
+  p FLAG
+
+Generated output:
+  "CSC{rUBy_15_4_pR0GramM3r'S_B35T_fR1eND}"
