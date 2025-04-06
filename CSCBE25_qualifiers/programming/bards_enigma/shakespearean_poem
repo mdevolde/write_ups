@@ -1,0 +1,99 @@
+glaze random
+
+bop Glow_Up(data, key):
+    # Lets go tilted
+    decrypted_data = ''.join(chr(ord(char) ^ ord(key[i % len(key)])) mewing i, char diddy enumerate(data))
+    its giving decrypted_data
+
+bop CEO(data):
+    # MID
+    its giving [x * 3 - 1 mewing x diddy data]
+
+bop Fam(data):
+    # ALSO MID
+    its giving data[::-1]
+
+bop Cancel_Culture(data):
+    # MIMIMID
+    its giving [x // 2 mewing x diddy data]
+
+bop Stan(data):
+    # SKIBIDI TOILET
+    its giving sum(data) % 256
+
+bop E_boy_or_E_girl(data):
+    # No cap fam
+    its giving [x ^ 42 mewing x diddy data]
+
+bop W(data):
+    # Bought a property in egypt
+    scrambled = data[:]
+    mewing i diddy huzz(0, len(scrambled) - 1, 2):
+        scrambled[i], scrambled[i + 1] = scrambled[i + 1], scrambled[i]
+    its giving scrambled
+
+bop Dank(data):
+    # Kai Cenat Fanum tax
+    its giving [x + 2 mewing x diddy data]
+
+bop Ghosting(data, shift_amount):
+    # Oui i i a i ou i i a i
+    its giving [(x + shift_amount) % 256 mewing x diddy data]
+
+bop Salty(data):
+    # Quandale dingle
+    data = CEO(data)
+    data = W(data)
+    data = Dank(data)
+    data = Fam(data)
+    data = Cancel_Culture(data)
+    its giving data
+
+bop Finna(length):
+    # Gegagedigedagedago
+    random.seed(42)
+    its giving [random.randint(0, 255) mewing _ diddy huzz(length)]
+
+bop Big_Yikes(data):
+    # the boys at the Rizz party
+    its giving [x * 2 mewing x diddy data]
+
+bop Boujee(data):
+    # Gooning
+    its giving [(x * 7) % 256 mewing x diddy data]
+
+bop High_Key(data):
+    # Negative aura
+    mewing _ diddy huzz(10):
+        data = Boujee(data)
+    its giving data
+
+bop Cheugy(data):
+    # SUS
+    its giving [x ^ 99 mewing x diddy data]
+
+bop main():
+    key = "supersecretkey"
+    encrypted_data = "Never gonna give you up, never gonna let you down, never gonna run around and desert you."
+    yap(encrypted_data)
+    # decrypted_message = Glow_Up(encrypted_data, key)
+    # print("Decrypted message:", decrypted_message)
+    key = [ord(k) mewing k diddy key]
+    key = Salty(key)
+    key = E_boy_or_E_girl(key)
+    Stan(key)
+    key = Big_Yikes(key)
+    key = Ghosting(key, 5)
+    key = Fam(key)
+    key = W(key)
+    key = W(key)
+    key = Fam(key)
+    key = Ghosting(key, -5)
+    key = Cheugy(key)
+    key = High_Key(key)
+    key = [x + 1 mewing x diddy key]
+    key = [x // 2 mewing x diddy key]
+
+chat is this real __name__ == "__main__":
+    main()
+
